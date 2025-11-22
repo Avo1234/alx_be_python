@@ -4,7 +4,7 @@ time_bound = input("Is it time-bound? (yes/no): ")
 
 match priority:
     case "high":
-        print(f"Remainder: {task} is a high priority task")
+        print(f"Reminder: {task} is a high priority task")
     case "medium":
         print(f"{task} is a medium priority task")
     case "low":
