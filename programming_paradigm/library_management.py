@@ -8,7 +8,7 @@ class Book:
         """Marks the book as checked out."""
         self._is_checked_out = True
 
-    def return_to_shelves(self):
+    def return_book(self):
         """Marks the book as available."""
         self._is_checked_out = False
 
